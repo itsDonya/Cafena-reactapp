@@ -14,3 +14,7 @@ body {
     background-color: #010103;
     position: relative;
 }
+
+header, article {
+    padding: 0 6%;
+}
