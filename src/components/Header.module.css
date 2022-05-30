@@ -1,8 +1,3 @@
-* {
-    transition: all .2s ease-in-out;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 header {
     height: 84px;
     width: 100vw;
@@ -42,7 +37,8 @@ header {
 .top_nav a:hover {
     color: #d3ad7f;
     border-bottom: 1px solid #d3ad7f;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
+    transition: all .3s ease-in-out;
 }
 
 .top_icons svg {
