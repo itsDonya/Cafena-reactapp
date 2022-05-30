@@ -15,6 +15,33 @@ body {
     position: relative;
 }
 
+/* -----Scroll Bar----- */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #010103;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 14px;
+  /* Handle on hover */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eee;
+}
+/* -------------------- */
+
 header, article {
     padding: 0 6%;
+}
+
+.orange {
+    color: orange;
 }

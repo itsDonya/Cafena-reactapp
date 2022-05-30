@@ -1,0 +1,25 @@
+#banner {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+    background: url("../img/home-img.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.title {
+    width: 40%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+}
+.caption {
+    width: 36%;
+    color: white;
+    font-size: 16px;
+    margin: 8px 0;
+}
