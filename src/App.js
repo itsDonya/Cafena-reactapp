@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Products from "./components/Products";
+import Reviews from "./components/Reviews";
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
                     <About/>
                     <Menu/>
                     <Products/>
+                    <Reviews/>
                 </main>
             </>
         )
