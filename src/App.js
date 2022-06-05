@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import About from "./components/About";
+import Menu from "./components/Menu";
+import Products from "./components/Products";
 
 class App extends Component {
     render() {
@@ -11,6 +13,8 @@ class App extends Component {
                 <main>
                     <Banner/>
                     <About/>
+                    <Menu/>
+                    <Products/>
                 </main>
             </>
         )

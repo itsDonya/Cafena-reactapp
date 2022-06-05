@@ -1,0 +1,61 @@
+.item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #373333;
+}
+
+.item img {
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.price {
+    font-size: 26px;
+}
+
+.price .original {
+    font-size: 14px;
+    margin-left: 4px;
+    text-decoration: 1px line-through white;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+button:hover {
+    color: black;
+}
+
+.item:hover {
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover .title {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover .price, .item:hover .original {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover .original {
+    text-decoration: 1px line-through black !important;
+}
+
+.item:hover button {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
