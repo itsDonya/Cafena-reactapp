@@ -4,11 +4,3 @@
     grid-template-rows: repeat(2, minmax(300px, 1fr));
     grid-gap: 12px;
 }
-
-.title {
-    color: white;
-    font-size: 32px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 3rem 0;
-}

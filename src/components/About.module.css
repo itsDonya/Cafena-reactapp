@@ -7,13 +7,6 @@
     align-items: center;
 }
 
-.title {
-    color: white;
-    font-size: 32px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .about_container {
     width: 92%;
     display: flex;

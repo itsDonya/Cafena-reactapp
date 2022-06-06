@@ -37,7 +37,7 @@ class Blogs extends Component {
         const {title, info, text} = this.state
         return(
             <article id="blogs">
-                <h1 className={styles.title}>our <span className="orange">Blogs</span></h1>
+                <h1 className="title">our <span className="orange">Blogs</span></h1>
                 <section className={styles.blogs}>
                     <Blog title={title} info={info} text={text} pic={pic1}/>
                     <Blog title={title} info={info} text={text} pic={pic2}/>

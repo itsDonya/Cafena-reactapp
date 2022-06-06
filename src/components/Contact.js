@@ -4,7 +4,7 @@ import Button from "./Button";
 const Contact = () => {
     return(
         <article id="contact">
-            <h1 className={styles.title}><span className="orange">contact</span> us</h1>
+            <h1 className="title"><span className="orange">contact</span> us</h1>
             <form>
                     <h4 className={styles.formTitle}>get in touch</h4>
                     <div className={styles.name}>

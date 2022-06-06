@@ -22,7 +22,7 @@ class Menu extends Component {
         return(
             <article id="menu">
 
-                <h1 className={styles.title}>our <span className="orange">menu</span></h1>
+                <h1 className="title">our <span className="orange">menu</span></h1>
 
                 <section className={styles.container}>
 

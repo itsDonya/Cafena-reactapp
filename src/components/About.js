@@ -6,7 +6,7 @@ import Button from "./Button";
 const About = () => {
     return(
         <article id="about" className={styles.about}>
-            <h1 className={styles.title}><span className="orange">about</span> us</h1>
+            <h1 className="title"><span className="orange">about</span> us</h1>
             <section className={styles.about_container}>
                 <div id="left" className={styles.about_img}>
                     <img src={aboutPic} alt="About pic" />
