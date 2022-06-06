@@ -7,6 +7,7 @@ import Products from "./components/Products";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
 
 class App extends Component {
     render() {
@@ -21,6 +22,7 @@ class App extends Component {
                     <Reviews/>
                     <Contact/>
                     <Blogs/>
+                    <Footer/>
                 </main>
             </>
         )
