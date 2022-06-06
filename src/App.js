@@ -6,6 +6,7 @@ import Menu from "./components/Menu";
 import Products from "./components/Products";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
+import Blogs from "./components/Blogs";
 
 class App extends Component {
     render() {
@@ -19,6 +20,7 @@ class App extends Component {
                     <Products/>
                     <Reviews/>
                     <Contact/>
+                    <Blogs/>
                 </main>
             </>
         )
