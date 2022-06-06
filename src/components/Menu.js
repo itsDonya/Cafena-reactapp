@@ -20,7 +20,7 @@ class Menu extends Component {
     render() {
         const {title, price, original} = this.state;
         return(
-            <article id={styles.menu}>
+            <article id="menu">
 
                 <h1 className={styles.title}>our <span className="orange">menu</span></h1>
 

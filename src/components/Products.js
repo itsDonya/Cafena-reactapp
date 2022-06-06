@@ -44,7 +44,7 @@ class Products extends Component {
     render() {
         const {name, price, original} = this.state;
         return(
-            <article id={styles.products}>
+            <article id="products">
                 <h1 className={styles.title}><span className="orange">our</span> products</h1>
                 <section className={styles.products}>
                     <Product name={name} price={price} original={original} pic={pic1}/>

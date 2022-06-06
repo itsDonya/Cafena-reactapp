@@ -38,7 +38,7 @@ class Reviews extends Component {
     render() {
         const {name, text} = this.state;
         return(
-            <article id="reviews">
+            <article id="review">
                 <h1 className={styles.title}>customer's <span className="orange">review</span></h1>
                 <section className={styles.reviews}>
                     <Review name={name} text={text} pic={pic1}/>
