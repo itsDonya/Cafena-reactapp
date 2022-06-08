@@ -14,10 +14,12 @@ header {
 .logo {
     width: 80px;
 }
+
 .top_nav {
     display: flex;
     width: 36%;
 }
+
 .top_nav ul {
     width: 100%;
     display: flex;

@@ -12,9 +12,9 @@ class Review extends Component {
         const {name, text, pic} = this.props;
         return(
             <div className={styles.review}>
-                <img src={quote} className={styles.quote} />
+                <img src={quote} className={styles.quote} alt="Quote" />
                 <p className={styles.text}>{text}</p>
-                <img src={pic} className={styles.profile}/>
+                <img src={pic} className={styles.profile} alt="User Profile" />
                 <h4 className={styles.name}>{name}</h4>
                 <div className={styles.stars}>
                     <FullStar/>

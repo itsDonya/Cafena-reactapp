@@ -11,7 +11,7 @@ class Blog extends Component {
         return(
             <div className={styles.blog}>
                 <section>
-                    <img src={pic} className={styles.pic}/>
+                    <img src={pic} className={styles.pic}  alt="Blog Pic" />
                 </section>
                 <div>
                     <p className={styles.blogTitle}>{title}</p>
